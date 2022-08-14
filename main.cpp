@@ -9,7 +9,7 @@
 using namespace std;
 
 
-//=====================================================================
+//Polynomial Class By #lastchance# from cplusplus.com=====================================================================
 
 
 template <typename T> class polynomial                                                        // Polynomial over field of type T
@@ -105,7 +105,7 @@ void SignChange (polynomial<double> p)
 }
 
 
-void BinomialRoot(polynomial<double> p,double strt,double end,int x)
+void BinomialRoot(polynomial<double> p,double strt,double end,int x)    
 {
     int it=0;
     double prev=0;
